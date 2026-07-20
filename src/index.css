@@ -1,0 +1,234 @@
+body {
+    font-family:Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+.signupHeader {
+    margin-top: 0;
+}
+
+.signupLabel {
+    color: grey;
+    margin-bottom: 0;
+}
+
+.signupInput {
+    margin-bottom: 10px;
+}
+
+.loginHeader {
+    margin-top: 0;
+}
+
+.loginLabel {
+    color: grey;
+    margin-bottom: 0;
+}
+
+.loginInput {
+    margin-bottom: 10px;
+}
+
+#root {
+    display: grid;
+    place-content: center;
+}
+
+#signup {
+    margin: 33vh;
+    background-color: white;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+#login {
+    margin: 33vh;
+    background-color: white;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.books-page h1{
+  background:#1976d2;
+  color:white;
+  padding:25px;
+  margin-top:0;
+}
+
+
+/* Search and filter */
+input,select{
+  padding:12px;
+  margin:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+
+/* Book layout */
+.book-container{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+
+/* Flashcard */
+.book-card{
+  width:220px;
+  height:320px;
+  perspective:1000px;
+}
+
+
+/* Card design */
+.book-cover{
+  height:100%;
+  background:white;
+  border-radius:15px;
+  box-shadow:
+  0 8px 15px rgba(0,0,0,0.25);
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:20px;
+  box-sizing:border-box;
+  transition:0.3s;
+}
+
+
+/* Hover effect */
+.book-cover:hover{
+  transform:translateY(-8px);
+  box-shadow:
+  0 15px 25px rgba(0,0,0,0.35);
+}
+
+
+/* Bottom left text */
+.book-info{
+  text-align:left;
+}
+
+
+.book-info h2{
+  font-size:20px;
+  margin:0;
+}
+
+
+.book-info p{
+  margin-top:5px;
+  color:#555;
+}
+
+
+/* Bottom right stars */
+.book-rating{
+  position:absolute;
+  right:15px;
+  bottom:20px;
+  font-size:18px;
+  color:#ffb400;
+}
+
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#1976d2;
+  color:white;
+  padding:15px 30px;
+}
+
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:18px;
+}
+
+
+.nav-links a:hover{
+  text-decoration:underline;
+}
+
+
+/*Contacts page section*/
+.contact-page{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:50px;
+}
+
+
+.contact-card{
+  background:white;
+  width:600px;
+  min-height:350px;
+  padding:40px;
+  border-radius:0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  text-align:center;
+}
+
+
+.contact-card h1{
+  margin-bottom:25px;
+}
+
+
+.contact-card form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  width: 100%;
+}
+
+
+.contact-card input{
+  padding:12px;
+  border-radius:0;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+
+.contact-card textarea{
+  height:130px;
+  padding:12px;
+  border-radius:0;
+  border:1px solid #ccc;
+  font-size:16px;
+  resize:none;
+}
+
+
+.contact-card button{
+  padding:12px;
+  background:#1976d2;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+
+.contact-card button:hover{
+  opacity:0.85;
+}
